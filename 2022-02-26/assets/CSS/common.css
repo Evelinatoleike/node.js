@@ -1,7 +1,40 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+}
+
+body {
+    background-color: rgb(235, 181, 217);
+}
+
 #rezultatas {
     text-align: center;
 }
 
 #rezultatas img {
-    max-width: 320px;
+    max-width: 400px;
+    margin-top: 50px;
+}
+
+.dog-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.input {
+    width: 200px;
+    height: 40px;
+}
+.findBreed {
+    padding: 10px;
+    border-radius: 5px;
 }

@@ -25,4 +25,4 @@ app.get('/:vardas/:pavarde/:adresas/:telefonas/:elpastas', function (req, res) {
     res.send('<h1>' + vardas + pavarde + adresas + telefonas + elpastas + '</h1>') //Nurodome grazinama turini atgal i narsykle
 })
 
-app.listen(3000) //Nurodomas portas ir inicijuojamas serveris
+app.listen(3001) //Nurodomas portas ir inicijuojamas serveris
